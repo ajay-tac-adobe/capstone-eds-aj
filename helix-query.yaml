@@ -1,0 +1,16 @@
+indices:
+  english: &default
+    include:
+      - /**
+    exclude:
+      - /snippets/**
+    target: /query-index.json
+    properties:
+      description:
+        select: head > meta[name="description"]
+        value: |
+          attribute(el, 'content')
+      title:
+        select: head > meta[property="og:title"]
+        value: |
+          attribute(el, 'content')

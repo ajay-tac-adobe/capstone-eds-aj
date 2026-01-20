@@ -1,0 +1,37 @@
+.social-links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-link a {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-color: currentColor;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+/* Twitter */
+.social-link.twitter a {
+  mask-image: url('/icons/twitter.svg');
+}
+
+/* facebook */
+.social-link.facebook a {
+  mask-image: url('/icons/facebook.svg');
+}
+
+/* instagram */
+.social-link.instagram a {
+  mask-image: url('/icons/instagram.svg');
+}
+
+/* Hover */
+.social-link a:hover {
+  opacity: 0.7;
+}
