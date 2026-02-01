@@ -55,7 +55,13 @@ header nav p {
 }
 
 header nav a:any-link {
-  color: currentcolor;
+  color: var(--text-color, #202020);
+  text-decoration: none;
+  background-color: transparent;
+  font-size: var(--font-size-small, 14px);
+  text-transform: uppercase;
+  font-family: var(--font-family-sans-serif);
+  padding: 15px 17px;
 }
 
 /* hamburger */
