@@ -1,3 +1,12 @@
+.social-links-container {
+  display: flex;
+  justify-content:space-between;
+}
+
+.social-links-wrapper {
+  margin: 10px;
+}
+
 .social-links {
   display: flex;
   gap: 16px;
