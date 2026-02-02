@@ -64,6 +64,10 @@ header nav a:any-link {
   padding: 15px 17px;
 }
 
+header nav ul li a:any-link:hover{
+  background-color: #ffea00;
+}
+
 /* hamburger */
 header nav .nav-hamburger {
   grid-area: hamburger;
