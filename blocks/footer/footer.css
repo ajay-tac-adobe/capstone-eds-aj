@@ -49,7 +49,7 @@ footer .footer .section:nth-child(2) p:last-child {
 footer .footer .section:first-child {
   background-color: #202020;
   border-bottom: none;
-  padding: 0;
+  padding: 10px 0;
   margin: 0;
 }
  
